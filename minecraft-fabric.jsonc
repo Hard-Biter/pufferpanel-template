@@ -1,0 +1,31 @@
+
+{
+    "pufferd":{
+        "type": "java",
+        "display": "Minecraft - Fabric server",
+        "install":{
+            
+        },
+        "run":{
+            "stop": "stop",
+            "pre": [],
+            "post": [],
+            //TODO #1
+            "arguments": [
+
+            ],
+            "programm": "java"
+            },
+            //TODO #2
+            "environmentVars": {
+
+            }
+        },
+        "environment":{
+            "type": "docker",
+            "image": "pufferpanel/minecraft"
+        },
+        "data":{
+            
+        }
+    }
