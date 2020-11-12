@@ -57,7 +57,9 @@
             "fabricversion": {
                 "value": "latest",
                 "required": true,
-                
+                "desc": "What Minecraft version to install",
+                "display": "Minecraft version",
+                "type": "string"
             }
         }
     }
