@@ -31,28 +31,28 @@
                 "required": true,
                 "desc": "How much memory in MB to allocate to the Java Heap",
                 "display": "Memory (MB)",
-                "internal": "false"
+                "type": "integer"
             },
             "ip": {
                 "value": "0.0.0.0",
                 "required": true,
                 "desc": "What IP to bind the server to",
                 "display": "IP",
-                "internal": "false"
+                "type": "string"
             },
             "port": {
                 "value": "25565",
                 "required": true,
                 "desc": "What port to bind the server to",
                 "display": "port",
-                "internal": false
+                "type": "integer"
             },
             "eula": {
                 "value": "false",
                 "required": true,
                 "desc": "Do you (or the server owner) agree to the <a href='https://account.mojang.com/documents/minecraft_eula'>Minecraft EULA?</a>",
                 "display": "EULA Agreement (true/false)",
-                "internal": false
+                "type": "boolean"
             },
             "fabricversion": {
                 "value": "latest",
