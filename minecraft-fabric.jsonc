@@ -26,6 +26,38 @@
             "image": "pufferpanel/minecraft"
         },
         "data":{
-            
+            "memory": {
+                "value": "2048",
+                "required": true,
+                "desc": "How much memory in MB to allocate to the Java Heap",
+                "display": "Memory (MB)",
+                "internal": "false"
+            },
+            "ip": {
+                "value": "0.0.0.0",
+                "required": true,
+                "desc": "What IP to bind the server to",
+                "display": "IP",
+                "internal": "false"
+            },
+            "port": {
+                "value": "25565",
+                "required": true,
+                "desc": "What port to bind the server to",
+                "display": "port",
+                "internal": false
+            },
+            "eula": {
+                "value": "false",
+                "required": true,
+                "desc": "Do you (or the server owner) agree to the <a href='https://account.mojang.com/documents/minecraft_eula'>Minecraft EULA?</a>",
+                "display": "EULA Agreement (true/false)",
+                "internal": false
+            },
+            "fabricversion": {
+                "value": "latest",
+                "required": true,
+                
+            }
         }
     }
