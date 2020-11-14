@@ -3,6 +3,9 @@
 		{
 			"name": "pufferpanel-template",
 			"path": "."
+		},
+		{
+			"path": "../pwsvogel"
 		}
 	],
 	"settings": {}
